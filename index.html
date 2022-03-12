@@ -68,7 +68,7 @@
         <section id="card_slider" class="cont-card_slider">
             <main class="container">
                 <div class="row">
-                    <div class="swiper mySwiper">
+                    <div class="swiper cardsSlide">
                         <div class="cont_slide swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="card_item">
@@ -197,14 +197,10 @@
         
         <!-- Initialize Swiper -->
         <script>
-            var swiper = new Swiper(".mySwiper", {
+            var swiper = new Swiper(".cardsSlide", {
                 slidesPerView: 1.2,
                 spaceBetween: 10,
                 centeredSlides: true,
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                },
                 navigation: {
                     nextEl: ".arrow-next",
                     prevEl: ".arrow-prev",
