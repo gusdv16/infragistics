@@ -4,111 +4,210 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba Técnica - December Lab</title>
+    <title>::INFRAGISTICS::</title>
     <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" type="text/css" href="dist/css/syles.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
-    <main class="container">
-        <nav>
-            <a href="#alternating_format">Alternating format</a>
-            <a href="#card_slider">Card Slider</a>
-            <a href="#news">News</a>
-        </nav>
-        <header class="header">
-            <h1>Stories That Truly Matter</h1>
-        </header>
-
-        <section id="alternating_format" class="cont-alternating_format">
-            <article class="row">
-                <div class="col-4">
-                    <figure><img src="dist/img/stuck-design-silo-whitepaper-1400.jpg" alt="image"></figure>
-                </div>
-                <div class="col-8">
-                    <h2>Are You Stuck in a Design Silo?</h2>
-                    <p>Sketch and other digital design tools have transformed application design in big ways. But their success also highlights
-                        their limitations — they leave you in a silo. Find out how you can seamlessly integrate digital designs into a complete
-                        design-to-code platform with real UI components that accelerates app building by up to 10x.</p>
-                    </div>
-                </article>
-                <article class="row">
-                    <div class="col-4">
-                        <figure><img src="dist/img/benefits-ui-toolkit-standardization-whitepaper-1400.jpg" alt="image"></figure>
-                    </div>
-                    <div class="col-8">
-                        <h2>Benefits of UI Toolkit Standardization</h2>
-                        <p>Research shows that using a standard UI toolkit pays for itself quickly by reducing project development and testing time
-                        by 33%. Read this whitepaper to see the research behind these numbers and learn about the other benefits including the
-                        creation of consistent, beautiful user experiences, lower training costs, and lower security vulnerabilities.</p>
-                    </div>
-                </article>
-                <article class="row">
-                    <div class="col-4">
-                        <figure><img src="dist/img/reveal-trends-software-development-analytics-report-1400.jpg" alt="image"></figure>
-                    </div>
-                    <div class="col-8">
-                    <h2>Trends in Software Development & Analytics (Survey Report)</h2>
-                    <p>Many tech firms thrived during the pandemic and analytics growth skyrocketed as businesses rapidly adopted digital
-                    transformation, according to the 2021 Survey Report. Find out which technologies saw the greatest growth and tech's
-                    plans for growth in 2021.</p>
-                </div>
-            </article>
-        </section>
-    </main>
-
-    <section id="card_slider" class="cont-card_slider">
+    <div>
+        <div class="container cont_nav">
+            <nav>
+                <a href="#alternating_format">Alternating format</a>
+                <a href="#card_slider">Card Slider</a>
+                <a href="#news">News</a>
+            </nav>
+        </div>
         <main class="container">
-            <div class="row">
-                <div class="col-4">
-                    <div class="card_item">
-                        <figure><img src="dist/img/ui-development-infragistics-ultimate-ui-ux-1400.jpg" alt="logo"></figure>
-                        <h3>Design & Development</h3>
-                        <p>Deliver apps in half the time with Infragistics Ultimate! With hundreds of UI controls & components, the fastest data
-                        grids and data charts for every popular web & desktop platform, plus a complete design-to-code platform including a
-                        web-based WYSIWYG drag & drop IDE.</p>
-                        <a href="click">Click here</a>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card_item">
-                        <figure><img src="dist/img/benefits-ui-toolkit-standardization-whitepaper-1400.jpg" alt="logo"></figure>
-                        <h3>Business Intelligence</h3>
-                        <p>Empower everyone in your organization to make smarter business decisions and take actions based on predictive data.
-                        Reveal makes it easy to embed analytics into your apps and easily connect to modern cloud platforms like Microsoft
-                        Azure, Google Big Query, and AWS.</p>
-                        <a href="click">Click here</a>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card_item">
-                        <figure><img src="dist/img/reveal-business-intelligence-data-analytics-embed-1400.png" alt="logo"></figure>
-                        <h3>Team Productivity</h3>
-                        <p>Slingshot is the only data-driven, all-in-one digital workplace for team collaboration that lets people go from insight
-                        to action in seconds, combines data analytics, project and content management, chat, and goals-based strategy
-                        benchmarking.</p>
-                        <a href="click">Click here</a>
-                    </div>
-                </div>
-            </div>
-        </main>
-    </section>
+            <header class="header">
+                <h1>Stories That Truly Matter</h1>
+            </header>
 
-    <main class="container">
-        <section id="news" class="cont-news">
-            <div class="row">
-                <div class="col-6">
-                    <figure><img src="dist/img/INFRAGIST-600x315w.png" alt="Logo"></figure>
+            <section id="alternating_format" class="cont-alternating_format">
+                <div id="alternating_format-items">
+                    <article class="row">
+                        <div class="col-4">
+                            <figure><a href="https://www.infragistics.com/resources/whitepapers/are-you-stuck-in-a-design-silo" target="_blank"><img src="dist/img/stuck-design-silo-whitepaper-1400.jpg" alt="image"></a></figure>
+                        </div>
+                        <div class="col-8">
+                            <h2><a href="https://www.infragistics.com/resources/whitepapers/are-you-stuck-in-a-design-silo" target="_blank">Are You Stuck in a Design Silo?</a></h2>
+                            <p>Sketch and other digital design tools have transformed application design in big ways. But their success also highlights
+                                their limitations — they leave you in a silo. Find out how you can seamlessly integrate digital designs into a complete
+                                design-to-code platform with real UI components that accelerates app building by up to 10x.</p>
+                            </div>
+                    </article>
+                    <article class="row">
+                        <div class="col-4">
+                            <figure><a href="https://www.infragistics.com/resources/whitepapers/ui-toolkit-standardization" target="_blank"><img src="dist/img/benefits-ui-toolkit-standardization-whitepaper-1400.jpg" alt="image"></a></figure>
+                        </div>
+                        <div class="col-8">
+                            <h2><a href="https://www.infragistics.com/resources/whitepapers/ui-toolkit-standardization" target="_blank">Benefits of UI Toolkit Standardization</a></h2>
+                            <p>Research shows that using a standard UI toolkit pays for itself quickly by reducing project development and testing time
+                            by 33%. Read this whitepaper to see the research behind these numbers and learn about the other benefits including the
+                            creation of consistent, beautiful user experiences, lower training costs, and lower security vulnerabilities.</p>
+                        </div>
+                    </article>
+                    <article class="row">
+                            <div class="col-4">
+                                <figure><a href="https://www.revealbi.io/whitepapers/software-development-and-analtyics-trends-2021" target="_blank"><img src="dist/img/reveal-trends-software-development-analytics-report-1400.jpg" alt="image"></a></figure>
+                            </div>
+                            <div class="col-8">
+                            <h2><a href="https://www.revealbi.io/whitepapers/software-development-and-analtyics-trends-2021" target="_blank">Trends in Software Development & Analytics (Survey Report)</a></h2>
+                            <p>Many tech firms thrived during the pandemic and analytics growth skyrocketed as businesses rapidly adopted digital
+                            transformation, according to the 2021 Survey Report. Find out which technologies saw the greatest growth and tech's
+                            plans for growth in 2021.</p>
+                        </div>
+                    </article>
                 </div>
-                <div class="col-6">
-                    <ul id="news_items"></ul>
-                    <a href="javascript:AddItem();">Load More</a>
-                </div>
-            </div>
+                <a href="javascript:loadMore();">Load More</a>
+            </section>
+        </main>
+
+        <section id="card_slider" class="cont-card_slider">
+            <main class="container">
+                <div class="row">
+                    <div class="swiper mySwiper">
+                        <div class="cont_slide swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card_item">
+                                    <figure><img src="dist/img/ui-development-infragistics-ultimate-ui-ux-1400.jpg" alt="logo"></figure>
+                                    <h3>Design & Development</h3>
+                                    <p>Deliver apps in half the time with Infragistics Ultimate! With hundreds of UI controls & components, the fastest data
+                                    grids and data charts for every popular web & desktop platform, plus a complete design-to-code platform including a
+                                    web-based WYSIWYG drag & drop IDE.</p>
+                                    <a href="javascript:(0);" onclick="openPopup(this,'#modal',true,true,'dist/img/ui-development-infragistics-ultimate-ui-ux-1400.jpg');">Click here</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card_item">
+                                    <figure><img src="dist/img/benefits-ui-toolkit-standardization-whitepaper-1400.jpg" alt="logo"></figure>
+                                    <h3>Business Intelligence</h3>
+                                    <p>Empower everyone in your organization to make smarter business decisions and take actions based on predictive data.
+                                    Reveal makes it easy to embed analytics into your apps and easily connect to modern cloud platforms like Microsoft
+                                    Azure, Google Big Query, and AWS.</p>
+                                    <a href="javascript:(0);" onclick="openPopup(this,'#modal',false,false,false,'https://youtu.be/JxS5E-kZc2s');">Click here</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card_item">
+                                    <figure><img src="dist/img/reveal-business-intelligence-data-analytics-embed-1400.png" alt="logo"></figure>
+                                    <h3>Team Productivity</h3>
+                                    <p>Slingshot is the only data-driven, all-in-one digital workplace for team collaboration that lets people go from insight
+                                    to action in seconds, combines data analytics, project and content management, chat, and goals-based strategy
+                                    benchmarking.</p>
+                                    <a href="javascript:(0);" onclick="openPopup(this,'#modal',false,false,'dist/img/reveal-business-intelligence-data-analytics-embed-1400.png');">Click here</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card_item">
+                                    <figure><img src="dist/img/ui-development-infragistics-ultimate-ui-ux-1400.jpg" alt="logo"></figure>
+                                    <h3>Design & Development</h3>
+                                    <p>Deliver apps in half the time with Infragistics Ultimate! With hundreds of UI controls & components, the fastest data
+                                    grids and data charts for every popular web & desktop platform, plus a complete design-to-code platform including a
+                                    web-based WYSIWYG drag & drop IDE.</p>
+                                    <a href="javascript:(0);" onclick="openPopup(this,'#modal',true,true,'dist/img/ui-development-infragistics-ultimate-ui-ux-1400.jpg');">Click here</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card_item">
+                                    <figure><img src="dist/img/benefits-ui-toolkit-standardization-whitepaper-1400.jpg" alt="logo"></figure>
+                                    <h3>Business Intelligence</h3>
+                                    <p>Empower everyone in your organization to make smarter business decisions and take actions based on predictive data.
+                                    Reveal makes it easy to embed analytics into your apps and easily connect to modern cloud platforms like Microsoft
+                                    Azure, Google Big Query, and AWS.</p>
+                                    <a href="javascript:(0);" onclick="openPopup(this,'#modal',false,false,false,'https://youtu.be/JxS5E-kZc2s');">Click here</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card_item">
+                                    <figure><img src="dist/img/reveal-business-intelligence-data-analytics-embed-1400.png" alt="logo"></figure>
+                                    <h3>Team Productivity</h3>
+                                    <p>Slingshot is the only data-driven, all-in-one digital workplace for team collaboration that lets people go from insight
+                                    to action in seconds, combines data analytics, project and content management, chat, and goals-based strategy
+                                    benchmarking.</p>
+                                    <a href="javascript:(0);" onclick="openPopup(this,'#modal',false,false,'dist/img/reveal-business-intelligence-data-analytics-embed-1400.png');">Click here</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card_item">
+                                    <figure><img src="dist/img/ui-development-infragistics-ultimate-ui-ux-1400.jpg" alt="logo"></figure>
+                                    <h3>Design & Development</h3>
+                                    <p>Deliver apps in half the time with Infragistics Ultimate! With hundreds of UI controls & components, the fastest data
+                                    grids and data charts for every popular web & desktop platform, plus a complete design-to-code platform including a
+                                    web-based WYSIWYG drag & drop IDE.</p>
+                                    <a href="javascript:(0);" onclick="openPopup(this,'#modal',true,true,'dist/img/ui-development-infragistics-ultimate-ui-ux-1400.jpg');">Click here</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card_item">
+                                    <figure><img src="dist/img/benefits-ui-toolkit-standardization-whitepaper-1400.jpg" alt="logo"></figure>
+                                    <h3>Business Intelligence</h3>
+                                    <p>Empower everyone in your organization to make smarter business decisions and take actions based on predictive data.
+                                    Reveal makes it easy to embed analytics into your apps and easily connect to modern cloud platforms like Microsoft
+                                    Azure, Google Big Query, and AWS.</p>
+                                    <a href="javascript:(0);" onclick="openPopup(this,'#modal',false,false,false,'https://youtu.be/JxS5E-kZc2s');">Click here</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card_item">
+                                    <figure><img src="dist/img/reveal-business-intelligence-data-analytics-embed-1400.png" alt="logo"></figure>
+                                    <h3>Team Productivity</h3>
+                                    <p>Slingshot is the only data-driven, all-in-one digital workplace for team collaboration that lets people go from insight
+                                    to action in seconds, combines data analytics, project and content management, chat, and goals-based strategy
+                                    benchmarking.</p>
+                                    <a href="javascript:(0);" onclick="openPopup(this,'#modal',false,false,'dist/img/reveal-business-intelligence-data-analytics-embed-1400.png');">Click here</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="arrow arrow-next"></div>
+                    <div class="arrow arrow-prev"></div>
+                </div>            
+            </main>
         </section>
-    </main>
+
+        <main class="container">
+            <section id="news" class="cont-news">
+                <div class="row">
+                    <div class="col-6">
+                        <figure><img src="dist/img/INFRAGIST-600x315w.png" alt="Logo"></figure>
+                    </div>
+                    <div class="col-6">
+                        <ul id="news_items"><div class="cont_loader"><div class="loader">Loading...</div></div></ul>
+                        <a id="load_more" href="javascript:AddItem();">Load More</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="cont_modal"></div>
+        <span class="close" onclick="closeModal($('#modal'));">X</span>
+    </div>
+    <div onclick="closeModal($('#modal'));" class="fill_modal"></div>
 
     <!-- JS CODE -->
     <script src="dist/js/jquery-3.6.0.min.js"></script>
     <script src="dist/js/code.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".arrow-next",
+                    prevEl: ".arrow-prev",
+                },
+            });
+        </script>
 </body>
 </html>
