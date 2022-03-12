@@ -103,7 +103,7 @@ header.header {
   margin-bottom: 25px;
   text-align: center;
   color: white;
-  background: var(--primary) url("dist/img/Atanasoft-2-1600.jpg") no-repeat;
+  background: var(--primary) url("../img/Atanasoft-2-1600.jpg") no-repeat;
   background-size: cover;
 }
 header.header h1 {
