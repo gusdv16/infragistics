@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.infragistics.com/assets/favicon/favicon.ico">
     <title>::INFRAGISTICS::</title>
     <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" type="text/css" href="dist/css/syles.css">
@@ -197,8 +198,9 @@
         <!-- Initialize Swiper -->
         <script>
             var swiper = new Swiper(".mySwiper", {
-                slidesPerView: 3,
-                spaceBetween: 30,
+                slidesPerView: 1.2,
+                spaceBetween: 10,
+                centeredSlides: true,
                 pagination: {
                     el: ".swiper-pagination",
                     clickable: true,
@@ -206,6 +208,23 @@
                 navigation: {
                     nextEl: ".arrow-next",
                     prevEl: ".arrow-prev",
+                },
+                breakpoints: {
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                        centeredSlides: false,
+                    },
+                    768: {
+                        slidesPerView: 2.5,
+                        spaceBetween: 40,
+                        centeredSlides: false,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                        centeredSlides: false,
+                    },
                 },
             });
         </script>
